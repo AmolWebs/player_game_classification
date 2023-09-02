@@ -104,7 +104,7 @@ def crick_foot_notBadm(crick_footb,badm_list,crick_foot_nbad):
     
 
 while True:
-    print("-----------------------------------------------------------------------------------------------------")
+    
     participants = input("\n\nEnter no. of students who plays any one of the game : ")
     if participants == "Exit":
         break
@@ -133,3 +133,6 @@ while True:
     print("Students who neither plays cricket or badminton : ",neither_crick_badm(all_participants,crick_list,badm_list,neither_crick_badm_part))
     print("Student who plays cricket and football : ",both_crick_footb(crick_list,footb_list,crick_footb))
     print("Student who plays cricket and football but not badminton : ",crick_foot_notBadm(crick_footb,badm_list,crick_foot_nbad) )
+    print("\n-----------------------------------------------------------------------------------------------------")
+    print("\n\nFor stop enter Exit : ")    
+    print("\n    OR ")
